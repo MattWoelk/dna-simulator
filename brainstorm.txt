@@ -1,2 +1,9 @@
 Options for what kind of knowledge cells have in addition to the common, static instructions:
 
+1)
+  proximity knowledge
+    -"I am near two green cells, so I should be green as well"
+    -"I am a border cell, so I should have this texture"
+
+  parent knowledge
+    -"I spawned from a green cell, so I should also be green"
