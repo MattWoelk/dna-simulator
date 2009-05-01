@@ -4,13 +4,14 @@ class Node
   attr_accessor :instructions, :coords, :color, :size
   def initialize instructions, size
     @instructions = instructions
-    @coords = [100,100]
+    @coords = [100.0,100.0]
     @size = size
-    @color = [200, 200, 80]
+    @color = [200.0, 200.0, 80.0]
   end
 
   def reproduce
     $app.newnode @instructions, @coords, @color
+    $app.queue.push self
   end
 
   def draw
