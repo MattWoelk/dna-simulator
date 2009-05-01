@@ -1,0 +1,2 @@
+Options for what kind of knowledge cells have in addition to the common, static instructions:
+
